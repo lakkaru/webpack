@@ -1,5 +1,3 @@
-let toggelButton = document.querySelector("#myButton");
-let desPara = document.querySelector("#myPara");
 
 const curState = () => desPara.style.display;
 
