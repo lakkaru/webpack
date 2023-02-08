@@ -1,4 +1,7 @@
 
+import {toggelButton, desPara} from './dom_loader';
+import {show, hide} from './functions';
+
 const curState = () => desPara.style.display;
 
 toggelButton.onclick = toggle;
@@ -13,9 +16,5 @@ function toggle() {
     }
 }
 
-function show() {
-  desPara.style.display = "block";
-}
-function hide() {
-  desPara.style.display = "none";
-}
+
+

@@ -1,2 +1,2 @@
-let toggelButton = document.querySelector("#myButton");
-let desPara = document.querySelector("#myPara");
+export let toggelButton = document.querySelector("#myButton");
+export let desPara = document.querySelector("#myPara");

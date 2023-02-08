@@ -1,0 +1,1 @@
+(()=>{"use strict";let e=document.querySelector("#myButton"),n=document.querySelector("#myPara");e.onclick=function(){"none"==n.style.display?(n.style.display="block",e.innerHTML="Hide Description"):(n.style.display="none",e.innerHTML="Show Description")}})();
